@@ -1,5 +1,5 @@
 .Weather {
-  font-family: Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
   margin: 30px auto;
@@ -8,16 +8,29 @@
 }
 
 .Weather h1 {
-  color: #878787;
-  font-size: 24px;
-  font-weight: 100;
+  color: #dcb15c;
+  font-size: 30px;
   margin: 20 0 0 0;
   line-height: 28px;
+  font-weight: bold;
 }
 
 .Weather ul {
   margin: 0;
   padding: 0;
+}
+
+.Weather .btn {
+  background: #80d8d0;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  height: 42px;
+  padding: 10px 0;
+}
+
+.form-control {
+  background-color: #fafafa;
 }
 
 .Weather canvas {
@@ -49,4 +62,28 @@
   line-height: 1;
   top: -34px;
   margin-left: 1px;
+}
+
+.Weather .humidity,
+.wind {
+  font-weight: bold;
+}
+
+.WeatherTemperature a {
+  color: #dcb15c;
+  text-decoration: none;
+}
+
+.footer {
+  color: #80d8d0;
+}
+
+.WeatherInfo .date #description {
+  font-weight: bold;
+  color:#80d8d0
+  
+}
+
+.WeatherInfo .timeDate {
+  font-weight: bold;
 }

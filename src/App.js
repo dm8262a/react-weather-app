@@ -13,7 +13,7 @@ export default function App() {
           <a
             href="https://github.com/dm8262a/react-weather-app"
             target="_blank"
-            className=" footer"
+            className="footer"
           >
             open-sourced on Github
           </a>
