@@ -8,7 +8,7 @@
 }
 
 .Weather h1 {
-  color: #dcb15c;
+  color: #80d8d0;
   font-size: 30px;
   margin: 20 0 0 0;
   line-height: 28px;
@@ -79,11 +79,12 @@
 }
 
 .WeatherInfo .date #description {
-  font-weight: bold;
-  color:#80d8d0
+  font-weight: 500;
+  color: #dcb15c;;
   
 }
 
 .WeatherInfo .timeDate {
-  font-weight: bold;
+  font-weight: 600;
+  color: #dcb15c;
 }
