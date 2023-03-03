@@ -7,13 +7,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="contaire">
-        <Weather defaultCity="New York"/>
+        <Weather defaultCity="New York" />
         <footer>
           This project was coded by Daniela Mojica and it is {""}
           <a
             href="https://github.com/dm8262a/react-weather-app"
             target="_blank"
             className="footer"
+            rel="noreferrer"
           >
             open-sourced on Github
           </a>
