@@ -70,7 +70,7 @@
 }
 
 .WeatherTemperature a {
-  color: #dcb15c;
+  color: #80d8d0;
   text-decoration: none;
 }
 
@@ -80,11 +80,22 @@
 
 .WeatherInfo .date #description {
   font-weight: 500;
-  color: #dcb15c;;
+  color: #dcb15c;
   
 }
 
 .WeatherInfo .timeDate {
   font-weight: 600;
   color: #dcb15c;
+}
+
+.WeatherForecast-day{ 
+  color: #dcb15c;
+  font-weight: 600;}
+
+  .WeatherForecast .forecast-card {
+  border-radius: 22px;
+  box-shadow:3px 3px 3px #80d8d0;
+  padding: 10px 0;
+  margin: 0 14px;
 }
