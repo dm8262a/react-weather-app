@@ -1,24 +1,40 @@
 import React from "react";
 import Weather from "./Weather";
 
+import background from "./images/tiffanyblue.jpg";
+
 import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <div className="contaire">
-        <Weather defaultCity="New York" />
-        <footer>
-          This project was coded by Daniela Mojica and it is {""}
+    <div
+      className="App"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        width: "100vw",
+        height: "100vh",
+      }}
+    >
+      <div className="container">
+        <div className="card">
+          <div className="card-body">
+            <Weather defaultCity="New York" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <span className="github-link">
           <a
             href="https://github.com/dm8262a/react-weather-app"
             target="_blank"
-            className="footer"
+            className="link"
             rel="noreferrer"
           >
-            open-sourced on Github
+            Open-source code{" "}
           </a>
-        </footer>
+          <span className="creator-name"> by Daniela Mojica</span>
+        </span>
       </div>
     </div>
   );
