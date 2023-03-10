@@ -7,10 +7,8 @@
 
 .Weather {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  border: 1px solid #dadde1;
   padding: 16px;
   margin: 30px auto;
-  border-radius: 4px;
   color: rbg (135, 135, 135);
 }
 
