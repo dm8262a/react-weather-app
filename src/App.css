@@ -13,8 +13,8 @@
 }
 
 .App .card {
-  max-width: 800px;
-  margin: 80px auto 30px auto;
+  max-width: 700px;
+  margin: 40px auto 20px auto;
   border-radius: 22px;
   background-color: white;
   backdrop-filter: blur(1.5rem);
@@ -23,7 +23,7 @@
 }
 
 .App .card-body {
-  padding: 60px;
+  padding: 20px;
 }
 
 .App .github-link {
