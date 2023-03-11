@@ -24,17 +24,21 @@ export default function App() {
         </div>
       </div>
       <div>
-        <span className="github-link">
-          <a
-            href="https://github.com/dm8262a/react-weather-app"
-            target="_blank"
-            className="link"
-            rel="noreferrer"
-          >
-            Open-source code{" "}
-          </a>
-          <span className="creator-name"> by Daniela Mojica</span>
-        </span>
+        <div className="card">
+          <div className="card-github">
+            <span className="github-link">
+              <a
+                href="https://github.com/dm8262a/react-weather-app"
+                target="_blank"
+                className="link"
+                rel="noreferrer"
+              >
+                Open-source code{" "}
+              </a>
+              <span className="creator-name"> by Daniela Mojica</span>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   );
